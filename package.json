@@ -1,0 +1,23 @@
+{
+  "name": "parcel-preact-x",
+  "version": "1.0.0",
+  "description": "Parcel Preact-X Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html -p 8080"
+  },
+  "keywords": [],
+  "author": "Rex Low",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "dependencies": {
+    "preact": "^10.0.0-rc.1",
+    "preact-router": "^3.0.1"
+  },
+  "alias": {
+    "react": "preact/compat"
+  }
+}
